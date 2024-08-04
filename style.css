@@ -1,0 +1,46 @@
+h1 {
+    text-align: center;
+    background-color: aqua;
+}
+
+
+.gradient-color {
+    background: linear-gradient(300deg,red,#D70040);
+    background-size;180% 180%;
+    animation:gradient-animation 180 case infinite;
+}
+
+.container {
+    display: flex;
+    gap:40px;
+    height: 30px;
+    width: 600px;
+}
+
+.container1 {
+    display: flex;
+    flex-basis: 800px;
+    max-width: 600px;
+    margin: 40px 20px 20px 0px;
+    gap: 35px;
+
+}
+
+
+
+.container3 {
+    display: flex;
+    height: 200px;
+    width:400px;
+    gap: 30px;
+    margin: 20px 20px 20px 0px;
+}
+
+.container4 {
+    display:flex;
+    width: 400px;
+    gap: 50px;
+    margin-top: 20px;
+
+
+}
